@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id="@+id/Home"
+    android:title="Home" />
+
+<item android:id="@+id/AboutUs"
+android:title="About us" />
+
+<item android:id="@+id/Contact"
+android:title="Contact" />
+
+    <item android:id="@+id/icon1"
+        android:title="Icon1"
+        android:icon="@drawable/download"
+        android:orderInCategory="60"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/icon2"
+        android:title="Icon2"
+        android:icon="@drawable/fb"
+        android:orderInCategory="20"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/icon3"
+        android:title="Icon3"
+        android:icon="@drawable/fox"
+        android:orderInCategory="30"
+        app:showAsAction="always" />
+
+</menu>
